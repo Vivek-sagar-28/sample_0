@@ -1,0 +1,112 @@
+$ ls
+ 
+$ git clone https://github.com/Vivek-sagar-28/sample_0.git
+
+$ ls
+
+$ cd sample_0
+
+$ ls
+README.md
+
+$ touch file1.txt
+
+$ cat file1.txt
+
+$ nano file2.txt
+
+$ cat file2.txt
+hi this is the first nano file created by vivej in git bash
+
+$ nano file2.txt
+in nano :
+ctrl+s to save
+ctrl+x to exit
+
+$ cat file2.txt
+hi this is the first nano file created by vivek in git bash
+
+$ cat >> file1.txt
+hi how are you vivek
+
+$ cat file1.txt
+hi how are you vivek
+
+$ ls
+README.md  file1.txt  file2.txt
+
+$ nano file3.txt
+
+$ ls
+README.md  file1.txt  file2.txt  file3.txt
+
+$ git add file1.txt
+
+$ git status
+
+$ git add .
+
+$ git status
+
+$ git commit -m "files added"
+
+$ git pull
+Already up to date.
+
+$ git push -u origin main
+
+$ git status
+
+$ git rm file1.txt
+
+$ git status
+
+$ git commit -m "deleted"
+
+$ git pull
+Already up to date.
+
+$ ls
+README.md  file2.txt  file3.txt
+
+$ git status
+
+$ git push
+
+$ ls
+README.md  file2.txt  file3.txt
+
+$ cd ..
+
+$ ls
+
+$ cd sample_0
+
+$ git branch --list
+* main
+
+$ git branch
+* main
+
+$ git checkout release
+branch 'release' set up to track 'origin/release'.
+Switched to a new branch 'release'
+
+$ git branch
+  main
+* release
+
+$ git switch feature-0001
+branch 'feature-0001' set up to track 'origin/feature-0001'.
+Switched to a new branch 'feature-0001'
+
+$ git branch
+* feature-0001
+  main
+  release
+
+$ ls
+README.md  sample1.py  sample2.sql
+
+$ pwd
+/c/Users/singo/sample_0
